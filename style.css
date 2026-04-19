@@ -1,65 +1,78 @@
-/* GENERAL */
-body {
+  /* RESET */
+* {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #0f172a, #1e293b);
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* BACKGROUND */
+body {
+  background: #0b0f19;
   color: white;
 }
 
 /* HERO */
 .hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  padding: 90px 20px;
 }
 
 .hero h1 {
-  font-size: 50px;
+  font-size: 55px;
 }
 
 .hero p {
   color: #cbd5e1;
+  margin-top: 10px;
+}
+
+.location {
+  margin-top: 5px;
+  color: #94a3b8;
 }
 
 /* BUTTONS */
 .buttons {
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .btn {
   display: inline-block;
-  padding: 12px 22px;
+  padding: 12px 25px;
   margin: 5px;
   background: #22c55e;
   color: black;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 10px;
   font-weight: bold;
+  transition: 0.3s;
 }
 
 .btn:hover {
-  background: #16a34a;
+  transform: scale(1.05);
 }
 
 .outline {
   background: transparent;
-  border: 1px solid #22c55e;
+  border: 2px solid #22c55e;
   color: #22c55e;
-}
-
-.outline:hover {
-  background: #22c55e;
-  color: black;
 }
 
 /* SECTIONS */
 .section {
   max-width: 1000px;
   margin: auto;
-  padding: 40px 20px;
+  padding: 60px 20px;
 }
 
 h2 {
   color: #22c55e;
+  margin-bottom: 20px;
 }
 
 /* GRID */
@@ -72,20 +85,20 @@ h2 {
 /* CARDS */
 .card {
   background: rgba(255,255,255,0.05);
-  border: 1px solid rgba(255,255,255,0.1);
   padding: 20px;
-  border-radius: 12px;
+  border-radius: 15px;
+  border: 1px solid rgba(255,255,255,0.1);
   transition: 0.3s;
 }
 
 .card:hover {
-  transform: translateY(-8px);
+  transform: translateY(-10px);
   border-color: #22c55e;
 }
 
 /* FOOTER */
 footer {
   text-align: center;
-  padding: 20px;
+  padding: 25px;
   color: #94a3b8;
-                              }
+  }
