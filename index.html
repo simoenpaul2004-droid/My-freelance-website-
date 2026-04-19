@@ -3,53 +3,82 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Freelance Portfolio</title>
+  <title>Muhammed Paul | Web Designer</title>
 
   <style>
-    body {
-      font-family: Arial, sans-serif;
+    * {
       margin: 0;
-      background: #f4f4f4;
-      color: #333;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: #fff;
+      line-height: 1.6;
     }
 
     header {
-      background: #111;
-      color: #fff;
-      padding: 30px;
       text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(135deg, #1e293b, #0f172a);
     }
 
-    section {
-      padding: 20px;
-      max-width: 900px;
-      margin: auto;
+    header h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
     }
 
-    .card {
-      background: #fff;
-      padding: 15px;
-      margin: 15px 0;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    header p {
+      color: #94a3b8;
+      margin: 5px 0;
     }
 
     .btn {
       display: inline-block;
-      padding: 10px 15px;
-      background: #111;
-      color: #fff;
+      margin-top: 15px;
+      padding: 12px 20px;
+      background: #22c55e;
+      color: #000;
       text-decoration: none;
-      border-radius: 5px;
-      margin-top: 10px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      margin-bottom: 15px;
+      color: #22c55e;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 12px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
     }
 
     footer {
       text-align: center;
       padding: 20px;
-      background: #111;
-      color: white;
-      margin-top: 20px;
+      background: #020617;
+      color: #94a3b8;
     }
   </style>
 </head>
@@ -57,54 +86,48 @@
 <body>
 
 <header>
-  <h1>Your Name</h1>
+  <h1>Muhammed Paul</h1>
   <p>Freelance Web Designer | HTML Developer | Copywriter</p>
+  <p>📍 New York, USA</p>
+  <a href="mailto:yourname@email.com" class="btn">Hire Me</a>
 </header>
 
 <section>
+  <h2>About Me</h2>
+  <p>
+    I help businesses create clean, modern, and high-converting websites.
+    With experience in HTML, web design, and copywriting, I deliver fast and reliable results.
+  </p>
+</section>
 
-  <div class="card">
-    <h2>About Me</h2>
-    <p>
-      I am a freelance web designer and copywriter skilled in HTML, website creation,
-      and content writing. I help businesses grow online with clean and modern designs.
-    </p>
+<section>
+  <h2>My Services</h2>
+  <div class="grid">
+    <div class="card">🌐 Website Design</div>
+    <div class="card">📄 Landing Pages</div>
+    <div class="card">✍️ Copywriting</div>
+    <div class="card">📊 Data Entry</div>
   </div>
+</section>
 
-  <div class="card">
-    <h2>My Services</h2>
-    <ul>
-      <li>Website Design (HTML)</li>
-      <li>Landing Pages</li>
-      <li>Copywriting</li>
-      <li>Data Entry</li>
-    </ul>
+<section>
+  <h2>My Work</h2>
+  <div class="grid">
+    <div class="card">Business Website Design</div>
+    <div class="card">Portfolio Website</div>
+    <div class="card">Online Store Homepage</div>
   </div>
+</section>
 
-  <div class="card">
-    <h2>My Work</h2>
-    <p>Here are sample projects I can build for you:</p>
-    <ul>
-      <li>Business landing page design</li>
-      <li>Portfolio website</li>
-      <li>Simple online store homepage</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h2>Contact Me</h2>
-    <p>If you need a website or writing service, feel free to contact me:</p>
-    <p><strong>Email:</strong> yourname@email.com</p>
-    <p><strong>WhatsApp:</strong> +234XXXXXXXXXX</p>
-
-    <a class="btn" href="mailto:yourname@email.com">Send Email</a>
-  </div>
-
+<section>
+  <h2>Contact Me</h2>
+  <p>Email: yourname@email.com</p>
+  <p>Phone: 08144021562</p>
 </section>
 
 <footer>
-  <p>© 2026 Your Name | All Rights Reserved</p>
+  <p>© 2026 Muhammed Paul | All Rights Reserved</p>
 </footer>
 
 </body>
-  </html>
+</html>
