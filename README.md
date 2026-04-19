@@ -1,27 +1,54 @@
-# 💻 Muhammed Paul -  My Freelance Portfolio
+# 💻 Muhammed Paul | Freelance Web Designer
 
-Welcome to my personal freelance web design portfolio.
-
-## 👨‍💻 About Me
-I am Muhammed Paul, a freelance web designer and HTML developer based in New York.  
-I specialize in creating clean, modern, and responsive websites for businesses and individuals.
-
-## 🚀 Services
-- Website Design (HTML & CSS)
-- Landing Pages
-- Copywriting
-- Data Entry
-
-## 🌐 Live Website
-Visit my portfolio here:  
-https://simoenpaul2004-droid.github.io/My-freelance-website-/
-
-## 📞 Contact
-- Email: simoenpaul2004@gmail.com  
-- Phone: 08144021562  
-
-## 🎯 Goal
-Helping businesses grow online with modern and effective web solutions.
+🚀 Building clean, modern, and high-converting websites for businesses worldwide.
 
 ---
-© 2026 Muhammed Paul
+
+## 👨‍💻 About Me
+I am **Muhammed Paul**, a freelance web designer and HTML developer based in New York.  
+I help businesses grow online by creating professional, responsive, and user-friendly websites.
+
+---
+
+## 🛠️ Skills
+- 🌐 HTML & CSS Web Design  
+- 🚀 Landing Page Creation  
+- ✍️ Copywriting  
+- 📊 Data Entry  
+- 🎨 UI Layout Design  
+
+---
+
+## 💼 Services I Offer
+✔ Business Website Design  
+✔ Landing Pages for Sales & Leads  
+✔ Personal Portfolio Websites  
+✔ Simple & Fast Web Pages  
+✔ Content Writing for Websites  
+
+---
+
+## 🌍 Live Portfolio
+👉 Visit my website:  
+https://simoenpaul2004-droid.github.io/My-freelance-website-/
+
+---
+
+## 📞 Contact Me
+- 📧 Email: simoenpaul2004@gmail.com  
+- 📱 Phone: 08144021562  
+
+---
+
+## 🎯 Goal
+Helping businesses and individuals build strong online presence with modern web design.
+
+---
+
+## ⚡ Availability
+✔ Available for freelance work  
+✔ Open to remote clients (USA & worldwide)
+
+---
+
+⭐ If you like my work, feel free to reach out for collaboration!
