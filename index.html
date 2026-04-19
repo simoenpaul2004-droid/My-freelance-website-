@@ -3,146 +3,183 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Muhammed Paul | Web Designer</title>
+<title>Muhammed Paul | Freelance Web Designer</title>
 
 <style>
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #0b0f19;
-  color: #fff;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
 }
-.container {
-  max-width: 1100px;
-  margin: auto;
-  padding: 20px;
-}
+
+/* HEADER */
 header {
   text-align: center;
-  padding: 80px 20px;
+  padding: 90px 20px;
 }
+
 header h1 {
-  font-size: 42px;
+  font-size: 50px;
+  margin-bottom: 10px;
 }
+
 header p {
-  color: #aaa;
+  color: #cbd5e1;
+  margin: 5px;
 }
+
+/* BUTTONS */
 .btn {
   display: inline-block;
-  margin: 10px;
-  padding: 12px 20px;
-  background: #22c55e;
-  color: #000;
+  margin-top: 20px;
+  padding: 12px 22px;
+  border-radius: 8px;
   text-decoration: none;
-  border-radius: 6px;
   font-weight: bold;
+  transition: 0.3s;
 }
+
+.btn-primary {
+  background: #22c55e;
+  color: black;
+}
+
+.btn-primary:hover {
+  background: #16a34a;
+}
+
 .btn-outline {
-  background: transparent;
   border: 1px solid #22c55e;
   color: #22c55e;
 }
+
+.btn-outline:hover {
+  background: #22c55e;
+  color: black;
+}
+
+/* SECTIONS */
 section {
-  margin-top: 50px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
 }
+
 h2 {
-  margin-bottom: 20px;
   color: #22c55e;
+  margin-bottom: 15px;
 }
+
+/* CARDS */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
 }
+
 .card {
-  background: #111827;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255,255,255,0.1);
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  transition: 0.3s;
 }
-.card p {
-  color: #bbb;
+
+.card:hover {
+  transform: translateY(-8px);
+  border-color: #22c55e;
 }
+
+/* FOOTER */
 footer {
   text-align: center;
-  margin-top: 50px;
   padding: 20px;
-  color: #777;
+  color: #94a3b8;
+  margin-top: 40px;
 }
 </style>
+
 </head>
 
 <body>
 
-<div class="container">
-
 <header>
   <h1>Muhammed Paul</h1>
-  <p>Web Designer • HTML Developer • Copywriter</p>
+  <p>Freelance Web Designer • HTML Developer • Copywriter</p>
   <p>📍 New York, USA</p>
 
-  <a href="mailto:simoenpaul2004@gmail.com" class="btn">Hire Me</a>
+  <a href="mailto:simoenpaul2004@gmail.com" class="btn btn-primary">Hire Me</a>
   <a href="https://wa.me/2348144021562" class="btn btn-outline">WhatsApp</a>
 </header>
 
 <section>
   <h2>About Me</h2>
   <p>
-    I design clean, modern, and high-converting websites for businesses.
-    I focus on speed, simplicity, and results that help you get more customers.
+    I design modern, clean, and high-converting websites that help businesses attract more customers online.
+    I focus on speed, style, and results.
   </p>
 </section>
 
 <section>
   <h2>Services</h2>
   <div class="grid">
+
     <div class="card">
       <h3>Website Design</h3>
-      <p>Modern and responsive websites built with clean HTML.</p>
+      <p>Modern, responsive websites built with clean HTML.</p>
     </div>
+
     <div class="card">
       <h3>Landing Pages</h3>
-      <p>High-converting pages designed to get leads and sales.</p>
+      <p>High-converting pages that turn visitors into customers.</p>
     </div>
+
     <div class="card">
       <h3>Copywriting</h3>
-      <p>Clear and persuasive content that sells your service.</p>
+      <p>Persuasive content that sells your product or service.</p>
     </div>
+
     <div class="card">
       <h3>Data Entry</h3>
-      <p>Accurate and fast data handling for your business.</p>
+      <p>Fast and accurate online data management.</p>
     </div>
+
   </div>
 </section>
 
 <section>
   <h2>Portfolio</h2>
   <div class="grid">
+
     <div class="card">
       <h3>Business Website</h3>
-      <p>Clean homepage design for a small business.</p>
+      <p>Clean and professional business homepage design.</p>
     </div>
+
     <div class="card">
       <h3>Landing Page</h3>
-      <p>Lead generation page for online service.</p>
+      <p>Sales-focused page designed for conversions.</p>
     </div>
+
     <div class="card">
-      <h3>Portfolio Site</h3>
-      <p>Personal brand website design.</p>
+      <h3>Personal Portfolio</h3>
+      <p>Modern freelancer portfolio design.</p>
     </div>
+
   </div>
 </section>
 
 <section>
   <h2>Contact</h2>
-  <p>Email: simoenpaul2004@gmail.com</p>
-  <p>Phone: 08144021562</p>
+  <p>Email: <b>simoenpaul2004@gmail.com</b></p>
+  <p>Phone: <b>08144021562</b></p>
 </section>
 
 <footer>
-  <p>© 2026 Muhammed Paul</p>
+  <p>© 2026 Muhammed Paul | All Rights Reserved</p>
 </footer>
-
-</div>
 
 </body>
 </html>
