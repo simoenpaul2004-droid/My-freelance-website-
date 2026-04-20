@@ -3,96 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muhammed Paul | Professional Web Developer</title>
+    <title>Paul Troves AI | Expert Developer</title>
     <style>
-        :root {
-            --gold: #ffd700;
-            --blue: #007bff;
-            --black: #0a0a0a;
-            --dark-gray: #1a1a1a;
-            --white: #ffffff;
-        }
-
-        body { font-family: 'Segoe UI', sans-serif; background-color: var(--black); color: var(--white); margin: 0; line-height: 1.6; }
-        .container { max-width: 1000px; margin: auto; padding: 40px 20px; }
+        /* General Styles */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; background-color: #0B0E14; color: #E0E0E0; line-height: 1.6; }
         
+        /* Layout */
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+        
+        /* Header */
+        header { padding: 30px 0; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.5rem; font-weight: bold; color: #fff; }
+        .nav-links a { color: #aaa; text-decoration: none; margin-left: 25px; transition: 0.3s; }
+        .nav-links a:hover { color: #3498db; }
+
         /* Hero Section */
-        header { text-align: center; padding: 60px 20px; background: linear-gradient(135deg, #000, #0a192f); border-bottom: 2px solid var(--gold); }
-        h1 { color: var(--gold); font-size: 3rem; margin: 0; }
-        .subtitle { font-size: 1.2rem; color: #ccc; margin-top: 10px; }
+        .hero { padding: 100px 0; text-align: center; }
+        .hero h1 { font-size: 3.5rem; color: #fff; margin-bottom: 20px; }
+        .hero p { font-size: 1.2rem; color: #888; max-width: 600px; margin: 0 auto 30px; }
+        .btn { display: inline-block; background: #3498db; color: #fff; padding: 12px 30px; text-decoration: none; border-radius: 5px; font-weight: bold; }
 
-        /* Sections */
-        h2 { border-left: 5px solid var(--gold); padding-left: 15px; margin-top: 50px; font-size: 2rem; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 20px; }
-        .card { background: var(--dark-gray); padding: 25px; border-radius: 8px; border-top: 3px solid var(--blue); }
-        .card h3 { color: var(--gold); margin-top: 0; }
-        ul { padding-left: 20px; }
-        li { margin-bottom: 8px; }
+        /* Services Grid */
+        .services { padding: 80px 0; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .card { background: #161B22; padding: 30px; border-radius: 10px; border: 1px solid #30363D; }
+        .card h3 { color: #fff; margin-bottom: 10px; }
+        .card p { color: #888; font-size: 0.95rem; }
 
-        /* Contact Section */
-        .contact-box { background: var(--dark-gray); padding: 30px; border-radius: 8px; text-align: center; margin-top: 50px; border: 1px solid var(--gold); }
-        .contact-info { font-size: 1.1rem; margin: 10px 0; }
-        .btn { display: inline-block; background: var(--gold); color: #000; padding: 10px 25px; text-decoration: none; font-weight: bold; border-radius: 5px; margin-top: 20px; }
+        footer { text-align: center; padding: 40px; border-top: 1px solid #30363D; color: #555; }
     </style>
 </head>
 <body>
 
-<header>
     <div class="container">
-        <h1>Muhammed Paul</h1>
-        <p class="subtitle">Freelance Web Developer & Conversion Specialist</p>
-    </div>
-</header>
+        <header>
+            <div class="logo">Paul Troves AI</div>
+            <nav class="nav-links">
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
 
-<div class="container">
-    
-    <h2>🧠 Skills I Offer</h2>
-    <div class="grid">
-        <div class="card">
-            <h3>Technical</h3>
-            <ul>
-                <li>Landing Page Design</li>
-                <li>WordPress & Shopify Store Design</li>
-                <li>HTML & CSS Coding</li>
-                <li>Website Speed Optimization</li>
-            </ul>
-        </div>
-        <div class="card">
-            <h3>Strategy & Content</h3>
-            <ul>
-                <li>Conversion Optimization</li>
-                <li>Copywriting for Web Pages</li>
-                <li>Basic On-page SEO</li>
-                <li>Performance Tuning</li>
-            </ul>
-        </div>
-    </div>
+        <section class="hero">
+            <h1>Automated Solutions & Web Design</h1>
+            <p>I build high-performance websites, AI chatbots, and smart lead-generation tools for businesses that want to scale.</p>
+            <a href="#services" class="btn">View My Services</a>
+        </section>
 
-    <h2>💼 Services</h2>
-    <div class="grid">
-        <div class="card">
-            <h3>💻 Website & Landing Pages</h3>
-            <p>High-converting designs that turn visitors into paying customers. Fully responsive and mobile-friendly.</p>
-        </div>
-        <div class="card">
-            <h3>⚡ Performance & SEO</h3>
-            <p>Speed optimization, image compression, and caching setup. I ensure your site ranks well on Google.</p>
-        </div>
-        <div class="card">
-            <h3>✍️ Content Services</h3>
-            <p>Expert copywriting for landing pages, product descriptions, and SEO-driven blog writing.</p>
-        </div>
-    </div>
+        <section id="services" class="services">
+            <div class="grid">
+                <div class="card">
+                    <h3>AI Chatbot Integration</h3>
+                    <p>Automate your customer support and lead generation with intelligent, conversational AI bots.</p>
+                </div>
+                <div class="card">
+                    <h3>Performance Web Design</h3>
+                    <p>Modern, responsive landing pages built to convert visitors into paying clients.</p>
+                </div>
+                <div class="card">
+                    <h3>Speed & Optimization</h3>
+                    <p>Full technical audits and speed optimization to boost your SEO and Google rankings.</p>
+                </div>
+            </div>
+        </section>
 
-    <div class="contact-box">
-        <h2>Get In Touch</h2>
-        <p class="contact-info">📍 New York, USA</p>
-        <p class="contact-info">📧 simoenpaul2004@gmail.com</p>
-        <p class="contact-info">📱 08144021562</p>
-        <a href="mailto:simoenpaul2004@gmail.com" class="btn">Send Me an Email</a>
+        <footer>
+            <p>&copy; 2026 Paul Troves AI. Built for Performance.</p>
+        </footer>
     </div>
-
-</div>
 
 </body>
 </html>
