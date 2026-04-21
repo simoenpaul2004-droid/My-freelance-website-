@@ -1,77 +1,82 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paul Troves AI | Expert Developer</title>
-    <style>
-        /* General Styles */
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: 'Segoe UI', Arial, sans-serif; background-color: #0B0E14; color: #E0E0E0; line-height: 1.6; }
-        
-        /* Layout */
-        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
-        
-        /* Header */
-        header { padding: 30px 0; display: flex; justify-content: space-between; align-items: center; }
-        .logo { font-size: 1.5rem; font-weight: bold; color: #fff; }
-        .nav-links a { color: #aaa; text-decoration: none; margin-left: 25px; transition: 0.3s; }
-        .nav-links a:hover { color: #3498db; }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f172a;
+  color: #fff;
+}header { background: linear-gradient(135deg, #2563eb, #7c3aed); padding: 60px 20px; text-align: center; }
 
-        /* Hero Section */
-        .hero { padding: 100px 0; text-align: center; }
-        .hero h1 { font-size: 3.5rem; color: #fff; margin-bottom: 20px; }
-        .hero p { font-size: 1.2rem; color: #888; max-width: 600px; margin: 0 auto 30px; }
-        .btn { display: inline-block; background: #3498db; color: #fff; padding: 12px 30px; text-decoration: none; border-radius: 5px; font-weight: bold; }
+header h1 { font-size: 40px; margin-bottom: 10px; }
 
-        /* Services Grid */
-        .services { padding: 80px 0; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
-        .card { background: #161B22; padding: 30px; border-radius: 10px; border: 1px solid #30363D; }
-        .card h3 { color: #fff; margin-bottom: 10px; }
-        .card p { color: #888; font-size: 0.95rem; }
+header p { font-size: 18px; opacity: 0.9; }
 
-        footer { text-align: center; padding: 40px; border-top: 1px solid #30363D; color: #555; }
-    </style>
+section { padding: 50px 20px; max-width: 1000px; margin: auto; }
+
+h2 { text-align: center; margin-bottom: 30px; }
+
+.skills, .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+
+.card { background: #1e293b; padding: 20px; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.3); transition: 0.3s; }
+
+.card:hover { transform: translateY(-5px); }
+
+.testimonials { display: flex; flex-direction: column; gap: 20px; }
+
+.testimonial { background: #1e293b; padding: 20px; border-left: 5px solid #7c3aed; border-radius: 10px; }
+
+footer { text-align: center; padding: 30px; background: #020617; margin-top: 40px; }
+
+button { background: #2563eb; color: #fff; border: none; padding: 12px 25px; border-radius: 8px; cursor: pointer; margin-top: 20px; }
+
+button:hover { background: #1d4ed8; } </style>
+
 </head>
-<body>
-
-    <div class="container">
-        <header>
-            <div class="logo">Paul Troves AI</div>
-            <nav class="nav-links">
-                <a href="#services">Services</a>
-                <a href="#contact">Contact</a>
-            </nav>
-        </header>
-
-        <section class="hero">
-            <h1>Automated Solutions & Web Design</h1>
-            <p>I build high-performance websites, AI chatbots, and smart lead-generation tools for businesses that want to scale.</p>
-            <a href="#services" class="btn">View My Services</a>
-        </section>
-
-        <section id="services" class="services">
-            <div class="grid">
-                <div class="card">
-                    <h3>AI Chatbot Integration</h3>
-                    <p>Automate your customer support and lead generation with intelligent, conversational AI bots.</p>
-                </div>
-                <div class="card">
-                    <h3>Performance Web Design</h3>
-                    <p>Modern, responsive landing pages built to convert visitors into paying clients.</p>
-                </div>
-                <div class="card">
-                    <h3>Speed & Optimization</h3>
-                    <p>Full technical audits and speed optimization to boost your SEO and Google rankings.</p>
-                </div>
-            </div>
-        </section>
-
-        <footer>
-            <p>&copy; 2026 Paul Troves AI. Built for Performance.</p>
-        </footer>
+<body><header>
+  <h1>Muhammed Paul</h1>
+  <p>Web Designer & Developer | Helping Businesses Grow Online</p>
+  <button>Contact Me</button>
+</header><section>
+  <h2>My Skills</h2>
+  <div class="skills">
+    <div class="card">HTML & CSS</div>
+    <div class="card">WordPress Design</div>
+    <div class="card">Landing Page Creation</div>
+    <div class="card">Website Speed Optimization</div>
+  </div>
+</section><section>
+  <h2>My Services</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Website Design</h3>
+      <p>I create modern and responsive websites that convert visitors into customers.</p>
     </div>
-
-</body>
-</html>
+    <div class="card">
+      <h3>Landing Pages</h3>
+      <p>High-converting landing pages designed to boost your sales.</p>
+    </div>
+    <div class="card">
+      <h3>Speed Optimization</h3>
+      <p>I make your website load faster to improve SEO and user experience.</p>
+    </div>
+  </div>
+</section><section>
+  <h2>Testimonials</h2>
+  <div class="testimonials">
+    <div class="testimonial">
+      <p>"Amazing work! My website looks professional and loads fast."</p>
+      <strong>- Happy Client</strong>
+    </div>
+    <div class="testimonial">
+      <p>"Very reliable and delivered beyond expectations."</p>
+      <strong>- Business Owner</strong>
+    </div>
+  </div>
+</section><footer>
+  <p>© 2026 Muhammed Paul | All Rights Reserved</p>
+</footer></body>
+          </html>
