@@ -2,81 +2,125 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Portfolio</title>
+<title>Muhammed Paul | High-Converting Web Designer</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 <style>
-body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: #0f172a;
-  color: #fff;
-}header { background: linear-gradient(135deg, #2563eb, #7c3aed); padding: 60px 20px; text-align: center; }
-
-header h1 { font-size: 40px; margin-bottom: 10px; }
-
-header p { font-size: 18px; opacity: 0.9; }
-
-section { padding: 50px 20px; max-width: 1000px; margin: auto; }
-
-h2 { text-align: center; margin-bottom: 30px; }
-
-.skills, .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
-
-.card { background: #1e293b; padding: 20px; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.3); transition: 0.3s; }
-
-.card:hover { transform: translateY(-5px); }
-
-.testimonials { display: flex; flex-direction: column; gap: 20px; }
-
-.testimonial { background: #1e293b; padding: 20px; border-left: 5px solid #7c3aed; border-radius: 10px; }
-
-footer { text-align: center; padding: 30px; background: #020617; margin-top: 40px; }
-
-button { background: #2563eb; color: #fff; border: none; padding: 12px 25px; border-radius: 8px; cursor: pointer; margin-top: 20px; }
-
-button:hover { background: #1d4ed8; } </style>
-
+:root{
+  --primary:#2563eb;
+  --secondary:#7c3aed;
+  --bg:#0f172a;
+  --card:#1e293b;
+  --text:#ffffff;
+}
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+body{background:var(--bg);color:var(--text)}
+nav{
+  display:flex;justify-content:space-between;align-items:center;
+  padding:20px 40px;background:#020617;position:sticky;top:0;z-index:1000
+}
+nav a{color:#fff;text-decoration:none;margin-left:20px;font-size:14px}
+header{
+  background:linear-gradient(135deg,var(--primary),var(--secondary));
+  padding:100px 20px;text-align:center
+}
+header h1{font-size:48px}
+header p{margin-top:10px;font-size:18px;opacity:.9}
+.cta{
+  background:#fff;color:#000;padding:14px 30px;border-radius:30px;
+  display:inline-block;margin-top:25px;font-weight:600;text-decoration:none
+}
+section{padding:70px 20px;max-width:1100px;margin:auto}
+h2{text-align:center;margin-bottom:40px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px}
+.card{
+  background:var(--card);padding:25px;border-radius:20px;
+  box-shadow:0 10px 25px rgba(0,0,0,.4);transition:.3s
+}
+.card:hover{transform:translateY(-8px)}
+.badge{color:#22c55e;font-size:14px;margin-top:10px}
+.stats{display:flex;justify-content:space-around;text-align:center}
+.stats div{font-size:22px;font-weight:700}
+.testimonial{border-left:5px solid var(--secondary)}
+.contact-box{background:var(--card);padding:30px;border-radius:20px;text-align:center}
+footer{text-align:center;padding:30px;background:#020617}
+@media(max-width:768px){.stats{flex-direction:column;gap:20px}}
+</style>
 </head>
-<body><header>
-  <h1>Muhammed Paul</h1>
-  <p>Web Designer & Developer | Helping Businesses Grow Online</p>
-  <button>Contact Me</button>
-</header><section>
-  <h2>My Skills</h2>
-  <div class="skills">
-    <div class="card">HTML & CSS</div>
-    <div class="card">WordPress Design</div>
-    <div class="card">Landing Page Creation</div>
-    <div class="card">Website Speed Optimization</div>
+<body><nav>
+  <h3>Muhammed Paul</h3>
+  <div>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#case">Case Study</a>
+    <a href="#contact">Contact</a>
   </div>
-</section><section>
-  <h2>My Services</h2>
-  <div class="services">
+</nav><header>
+  <h1>I Build Websites That Convert Visitors Into Customers</h1>
+  <p>Web Design • Shopify • WordPress • Wix • Copywriting</p>
+  <a href="#contact" class="cta">Get Started</a>
+</header><section>
+  <div class="stats">
+    <div>50+<br><span>Projects</span></div>
+    <div>30+<br><span>Clients</span></div>
+    <div>100%<br><span>Satisfaction</span></div>
+  </div>
+</section><section id="services">
+  <h2>Services</h2>
+  <div class="grid">
+    <div class="card"><h3>Website Design</h3><p>Modern responsive websites.</p></div>
+    <div class="card"><h3>Shopify Stores</h3><p>High-converting eCommerce stores.</p></div>
+    <div class="card"><h3>Wix & GoDaddy</h3><p>Professional business websites.</p></div>
+    <div class="card"><h3>Landing Pages</h3><p>Designed to boost sales.</p></div>
+    <div class="card"><h3>Copywriting</h3><p>Persuasive content that sells.</p></div>
+  </div>
+</section><section id="portfolio">
+  <h2>Portfolio</h2>
+  <div class="grid">
     <div class="card">
-      <h3>Website Design</h3>
-      <p>I create modern and responsive websites that convert visitors into customers.</p>
+      <h3>eCommerce Store</h3>
+      <p>Shopify store design for clothing brand.</p>
+      <span class="badge">+120% sales</span>
     </div>
     <div class="card">
-      <h3>Landing Pages</h3>
-      <p>High-converting landing pages designed to boost your sales.</p>
+      <h3>Business Website</h3>
+      <p>Wix site redesign for local business.</p>
+      <span class="badge">+80% engagement</span>
     </div>
     <div class="card">
-      <h3>Speed Optimization</h3>
-      <p>I make your website load faster to improve SEO and user experience.</p>
+      <h3>Landing Page</h3>
+      <p>High-converting landing page.</p>
+      <span class="badge">+3x conversions</span>
     </div>
+  </div>
+</section><section id="case">
+  <h2>Case Study</h2>
+  <div class="card">
+    <h3>Shopify Store Transformation</h3>
+    <p><strong>Problem:</strong> Low sales and poor design.</p>
+    <p><strong>Solution:</strong> Redesigned store, optimized speed, improved copy.</p>
+    <p><strong>Result:</strong> Sales increased by 120% within 30 days.</p>
   </div>
 </section><section>
   <h2>Testimonials</h2>
-  <div class="testimonials">
-    <div class="testimonial">
-      <p>"Amazing work! My website looks professional and loads fast."</p>
-      <strong>- Happy Client</strong>
+  <div class="grid">
+    <div class="card testimonial">
+      <p>★★★★★ "Outstanding work, my business grew fast!"</p>
     </div>
-    <div class="testimonial">
-      <p>"Very reliable and delivered beyond expectations."</p>
-      <strong>- Business Owner</strong>
+    <div class="card testimonial">
+      <p>★★★★★ "Highly professional and delivers results."</p>
+    </div>
+    <div class="card testimonial">
+      <p>★★★★★ "Best web designer I've worked with."</p>
     </div>
   </div>
+</section><section id="contact">
+  <h2>Contact Me</h2>
+  <div class="contact-box">
+    <p><strong>Email:</strong> your@email.com</p>
+    <p><strong>Location:</strong> Available Worldwide</p>
+    <p><strong>WhatsApp:</strong> +234 814 402 1562</p>
+  </div>
 </section><footer>
-  <p>© 2026 Muhammed Paul | All Rights Reserved</p>
+  <p>© 2026 Muhammed Paul | Built for conversions</p>
 </footer></body>
-          </html>
+                                              </html>
